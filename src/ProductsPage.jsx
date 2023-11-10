@@ -14,7 +14,7 @@ export default function ProductsPage() {
   }
 
   function fetchProducts() {
-    return fetch('https://fakestoreapi.com/products', {mode: 'no-cors'}).then((res) => res.json());
+    return fetch('https://fakestoreapi.com/products').then((res) => res.json());
   }
 
   useEffect(() => {
