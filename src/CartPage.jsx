@@ -43,7 +43,7 @@ export default function CartPage() {
             >
               Confirm
             </button>
-            <img src="/src/assets/payment.jpg" className="w-80"></img>
+            <img src="/public/assets/payment.jpg" className="w-80"></img>
         </div>
       </div>
     </div>

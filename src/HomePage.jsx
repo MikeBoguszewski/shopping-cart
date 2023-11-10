@@ -6,7 +6,7 @@ export default function HomePage() {
     <div>
       <NavigationBar></NavigationBar>
       <div
-        style={{ backgroundImage: 'url(/src/assets/photo.jpg)' }}
+        style={{ backgroundImage: 'url(/public/assets/photo.jpg)' }}
         className="w-screen h-screen bg-cover bg-no-repeat"
       >
         <div className="bg-black/60 h-screen overflow-hidden">
