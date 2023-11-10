@@ -11,7 +11,7 @@ export default function NavigationBar() {
         <Link to="/products">Products</Link>
       </div>
       <Link to="/cart" className="relative">
-        <img className="w-10 m-5" src="src/assets/cart.svg"></img>
+        <img className="w-10 m-5" src="../../public/cart.svg"></img>
         <div className="rounded-full bg-sky-700 text-white flex items-center justify-center font-bold text-xs w-6 h-6 absolute top-0 right-0 mt-2 mr-2">
           {cart.length}
         </div>
