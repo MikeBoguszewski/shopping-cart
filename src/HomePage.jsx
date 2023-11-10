@@ -1,12 +1,13 @@
 import NavigationBar from './NavigationBar';
 import { Link } from 'react-router-dom';
+import BackgroundImage from './assets/photo.jpg'
 
 export default function HomePage() {
   return (
     <div>
       <NavigationBar></NavigationBar>
       <div
-        style={{ backgroundImage: 'url(../assets/photo.jpg)' }}
+        style={{ backgroundImage: `url(${BackgroundImage})` }}
         className="w-screen h-screen bg-cover bg-no-repeat"
       >
         <div className="bg-black/60 h-screen overflow-hidden">

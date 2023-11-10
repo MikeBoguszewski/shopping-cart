@@ -1,5 +1,6 @@
 import NavigationBar from './NavigationBar';
 import { useState } from 'react';
+import PaymentImage from './assets/payment.jpg'
 
 export default function CartPage() {
   const [cart, setCart] = useState(JSON.parse(localStorage.getItem('cart')) || []);
@@ -43,7 +44,7 @@ export default function CartPage() {
             >
               Confirm
             </button>
-            <img src="../assets/payment.jpg" className="w-80"></img>
+            <img src={PaymentImage} className="w-80"></img>
         </div>
       </div>
     </div>
