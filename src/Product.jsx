@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 export default function Product({ product, addProductToCart }) {
   return (
     <div className="border p-3 flex flex-col h-full items-center">
@@ -14,3 +16,8 @@ export default function Product({ product, addProductToCart }) {
     </div>
   );
 }
+
+Product.propTypes = {
+  product: PropTypes.object.isRequired,
+  addProductToCart: PropTypes.func.isRequired
+};
